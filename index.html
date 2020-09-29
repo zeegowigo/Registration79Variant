@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<form id="register">
+    <fieldset class="fields">
+        <h1>Регистрация Шаг 1 из 2</h1>
+        <label for="name">Имя</label>
+        <input type="text" class="name" id="name" placeholder="Иван" pattern="^[А-Яа-яЁё]+$" required><span></span> <button>Проверка</button><br>
+
+        <label for="city">Город</label>
+        <select id="city">
+            <option>Калининград</option>
+            <option>Москва</option>
+            <option>Санкт-Петербург</option>
+            <option>Казань</option>
+            <option>Сочи</option>
+            <option>Нижний Новгород</option>
+        </select><br><br>
+
+        <p><b>Выберите пол.</b></p><br>
+        <p><input name="male" type="radio" value="Male"> Мужчина</p><br>
+        <p><input name="female" type="radio" value="Female"> Женщина</p>
+
+        <button class="close">Отмена</button>
+        <button class="goendreg"><a href="endregistration.html"/>Далее</button>
+    </fieldset>
+</form>
+</body>
+</html>
